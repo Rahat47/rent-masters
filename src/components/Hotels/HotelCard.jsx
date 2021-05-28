@@ -1,18 +1,13 @@
-import { Button } from "bootstrap";
 import React from "react";
-import { Card } from "react-bootstrap";
-import data from '../../assets/data/data';
+import { Card, Button } from "react-bootstrap";
 
-const HotelCard = (room) => {
+const HotelCard = ({ room }) => {
     return (
-        <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
+        <Card style={{ width: "18rem" }}>
+            <Card.Img variant="top" src={room.img} />
             <Card.Body>
                 <Card.Title>{room.title}</Card.Title>
-                <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
-        </Card.Text>
+                <Card.Text>{room.bedType}</Card.Text>
                 <Button variant="primary">Go somewhere</Button>
             </Card.Body>
         </Card>
