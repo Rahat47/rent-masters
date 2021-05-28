@@ -6,7 +6,6 @@ const Home = () => {
         <div>
             <h1>Home page is changed</h1>
             <Footer/>
-
             <Header />
         </div>
     );
