@@ -1,0 +1,17 @@
+.heading {
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subtitle {
+    text-transform: uppercase;
+    color: #275a53;
+}
+
+.title {
+    font-family: "Poppins", sans-serif;
+    font-size: 2.5rem;
+    color: #4aa96c;
+}
