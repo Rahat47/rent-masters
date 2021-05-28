@@ -1,5 +1,5 @@
 import React from "react";
-import { Container } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 //Import the array in here
 import { hotelsInfo } from "../../assets/data/data";
 import Heading from "../Heading/Heading";
@@ -10,12 +10,12 @@ const HotelsContainer = () => {
         <>
             <Heading title="Discover Hotels For Rent" subtitle="Our Hotels" />
             <Container>
-                <div class="row">
-                    {/* map the array and render the hotel Card component */}
-                    {hotelsInfo.map((room, i) => (
-                        <HotelCard room={room} key={i} />
-                    ))}
-                </div>
+                <Row>                  
+                        {/* map the array and render the hotel Card component */}
+                        {hotelsInfo.map((room, i) => (
+                            <HotelCard room={room} key={i} />
+                        ))}
+                </Row>
 
             </Container>
         </>
