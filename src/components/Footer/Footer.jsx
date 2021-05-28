@@ -12,8 +12,8 @@ const Footer = () => {
                     </div>
                     <div className="col-md-2">
                         <h4>Company</h4>
-                        <ul className='list-unstyled'>
-                            <li >About Site</li>
+                        <ul className="list-unstyled">
+                            <li>About Site</li>
                             <li>Map</li>
                             <li>Support Center</li>
                             <li>Terms Conditions</li>
@@ -22,7 +22,7 @@ const Footer = () => {
                     </div>
                     <div className="col-md-2">
                         <h4>Quick Links</h4>
-                        <ul className='list-unstyled'>
+                        <ul className="list-unstyled">
                             <li>Quick Links</li>
                             <li>Rentals</li>
                             <li>Sales</li>
@@ -36,30 +36,30 @@ const Footer = () => {
                         Sydney, with agents available to answer any question
                         24/7 <br />
                         <div className="mt-3">
-                        <a className="me-2" href="facebook">
-                            <img
-                                src="https://img.icons8.com/office/40/000000/facebook-circled.png"
-                                alt="facebook"
-                            />
-                        </a>
-                        <a className="me-2" href="linkedin">
-                            <img
-                                src="https://img.icons8.com/fluent/48/000000/linkedin-circled.png"
-                                alt="linkedin"
-                            />
-                        </a>
-                        <a className="me-2" href="whatsapp">
-                            <img
-                                src="https://img.icons8.com/office/40/000000/whatsapp--v3.png"
-                                alt="whatsapp"
-                            />
-                        </a>
-                        <a className="me-2" href="youtube">
-                            <img
-                                src="https://img.icons8.com/fluent/48/000000/youtube-play.png"
-                                alt="youtube"
-                            />
-                        </a>
+                            <a className="me-2" href="facebook">
+                                <img
+                                    src="https://img.icons8.com/office/40/000000/facebook-circled.png"
+                                    alt="facebook"
+                                />
+                            </a>
+                            <a className="me-2" href="linkedin">
+                                <img
+                                    src="https://img.icons8.com/fluent/48/000000/linkedin-circled.png"
+                                    alt="linkedin"
+                                />
+                            </a>
+                            <a className="me-2" href="whatsapp">
+                                <img
+                                    src="https://img.icons8.com/office/40/000000/whatsapp--v3.png"
+                                    alt="whatsapp"
+                                />
+                            </a>
+                            <a className="me-2" href="youtube">
+                                <img
+                                    src="https://img.icons8.com/fluent/48/000000/youtube-play.png"
+                                    alt="youtube"
+                                />
+                            </a>
                         </div>
                     </div>
                 </div>
