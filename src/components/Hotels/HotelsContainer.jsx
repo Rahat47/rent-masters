@@ -10,10 +10,13 @@ const HotelsContainer = () => {
         <>
             <Heading title="Discover Hotels For Rent" subtitle="Our Hotels" />
             <Container>
-                {/* map the array and render the hotel Card component */}
-                {hotelsInfo.map((room, i) => (
-                    <HotelCard room={room} key={i} />
-                ))}
+                <div class="row">
+                    {/* map the array and render the hotel Card component */}
+                    {hotelsInfo.map((room, i) => (
+                        <HotelCard room={room} key={i} />
+                    ))}
+                </div>
+
             </Container>
         </>
     );

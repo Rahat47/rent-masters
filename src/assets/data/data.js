@@ -1,9 +1,9 @@
 import hotelImg1 from '../images/Radisson-Blu.jpg';
-import hotelImg2 from '../images/Radisson-Blu.jpg';
-import hotelImg3 from '../images/Radisson-Blu.jpg';
-import hotelImg4 from '../images/Radisson-Blu.jpg';
-import hotelImg5 from '../images/Radisson-Blu.jpg';
-import hotelImg6 from '../images/Radisson-Blu.jpg';
+import hotelImg2 from '../images/Well-Park.jpg';
+import hotelImg3 from '../images/The-Peninsula.jpg';
+import hotelImg4 from '../images/Jatra-Rooms.jpg';
+import hotelImg5 from '../images/The-Avenue-Hotel.jpg';
+import hotelImg6 from '../images/Royal-Living-Hotel.jpg';
 
 //Export the hotels info array from here
 export const hotelsInfo = [
