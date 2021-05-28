@@ -40,7 +40,7 @@ export const hotelsInfo = [
     {
         title: 'Radisson Blu Chattogram',
         img: hotelImg4,
-        address: 'M M Ali Road. GEC More Flat: 2 A,B,C, House: T M T Ismail Tower 11/1',
+        address: 'M M Ali Road. GEC More, T M T Ismail Tower 11/1',
         bed: 1,
         capacity: 1,
         bedType: 'Double',
