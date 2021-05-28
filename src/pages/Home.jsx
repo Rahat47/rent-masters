@@ -13,6 +13,8 @@ const Home = () => {
             <Header />
             <HotelsContainer></HotelsContainer>
             <Service/>
+            <HotelsContainer/>
+            <Service />
             <Footer />
         </div>
     );

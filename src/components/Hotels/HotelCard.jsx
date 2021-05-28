@@ -3,6 +3,7 @@ import React from "react";
 import { Card } from "react-bootstrap";
 
 const HotelCard = (info) => {
+    console.log(info.title);
     return (
         <Card style={{ width: '18rem' }}>
             <Card.Img variant="top" src={info.img} />
