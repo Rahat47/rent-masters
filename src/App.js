@@ -3,6 +3,7 @@ import Auth from './pages/Auth';
 import Dashboard from './pages/Dashboard';
 import Home from './pages/Home';
 import ProductDetails from './pages/ProductDetails';
+import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <Router>
