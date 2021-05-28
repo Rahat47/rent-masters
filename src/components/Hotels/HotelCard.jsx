@@ -1,10 +1,16 @@
 import React from "react";
+import { Card, Button } from "react-bootstrap";
 
-const HotelCard = () => {
+const HotelCard = ({ room }) => {
     return (
-        <div>
-            <h1>Hotel Card</h1>
-        </div>
+        <Card style={{ width: "18rem" }}>
+            <Card.Img variant="top" src={room.img} />
+            <Card.Body>
+                <Card.Title>{room.title}</Card.Title>
+                <Card.Text>{room.bedType}</Card.Text>
+                <Button variant="primary">Go somewhere</Button>
+            </Card.Body>
+        </Card>
     );
 };
 

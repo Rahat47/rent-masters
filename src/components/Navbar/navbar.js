@@ -22,9 +22,7 @@ const NavBar = () => {
                             <NavDropdown.Divider />
                             <NavDropdown.Item href="#action5">Something else here</NavDropdown.Item>
                         </NavDropdown>
-
                     </Nav>
-
                 </Navbar.Collapse>
             </Container>
         </Navbar>
