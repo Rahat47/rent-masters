@@ -8,7 +8,11 @@ const Footer = () => {
                 <div className="row">
                     <div className="col-md-5">
                         H#340 (4th Floor), Road #24, New DOHS, Mohakhali, Dhaka,
-                        Bangladesh Phone: 018XXXXXXXX E-mail: info@company.com
+                        Bangladesh 
+                        <ul className='list-unstyled'>
+                            <li>Phone: 018XXXXXXXX</li>
+                            <li>E-mail: info@company.com</li>
+                        </ul>
                     </div>
                     <div className="col-md-2">
                         <h4>Company</h4>
