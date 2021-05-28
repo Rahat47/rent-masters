@@ -5,6 +5,7 @@ import hotelImg3 from '../images/Radisson-Blu.jpg';
 import hotelImg4 from '../images/Radisson-Blu.jpg';
 import hotelImg5 from '../images/Radisson-Blu.jpg';
 import hotelImg6 from '../images/Radisson-Blu.jpg';
+import Hotels from '../../components/Hotels/HotelCard';
 
 const data = () => {
     const style = {
@@ -12,7 +13,7 @@ const data = () => {
         margin: '40px',
         justifyContent: 'space-between'
     }
-    const hotels = [
+    const hotelsInfo = [
         {
             title: 'Radisson Blu Chattogram',
             img: hotelImg1,
@@ -72,7 +73,7 @@ const data = () => {
     return (
         <div style={style}>
             {
-               //hotels.map(room => <Room key={room.bedType} room={room}></Room>)
+               hotelsInfo.map(room => <Hotels key={room.title} room={room}></Hotels>)
             }
         </div>
     );

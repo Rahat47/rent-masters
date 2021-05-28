@@ -7,7 +7,7 @@ const HotelsContainer = () => {
         <>
             <Heading title="Discover Hotels For Rent" subtitle="Our Hotels" />
             <Container>
-                <h1>Hotel Container</h1>
+                
             </Container>
         </>
     );
