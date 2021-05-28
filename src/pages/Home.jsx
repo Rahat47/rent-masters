@@ -4,16 +4,12 @@ import NavBar from "../components/Navbar/navbar";
 import Service from "../components/Services/Service";
 import HotelsContainer from "../components/Hotels/HotelsContainer";
 
-
-
 const Home = () => {
     return (
         <div>
             <NavBar />
             <Header />
-            <HotelsContainer></HotelsContainer>
-            <Service/>
-            <HotelsContainer/>
+            <HotelsContainer />
             <Service />
             <Footer />
         </div>
