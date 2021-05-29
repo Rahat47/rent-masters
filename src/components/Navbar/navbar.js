@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import { Container, Nav, Navbar } from 'react-bootstrap';
 import styles from './navbar.module.css'
 
 const NavBar = () => {
@@ -19,7 +19,7 @@ const NavBar = () => {
                         <Nav.Link href="#action2">Service</Nav.Link>
                         <Nav.Link href="#action2">Contact</Nav.Link>
                         <Nav.Link href="#action2"><b>Login</b></Nav.Link>
-                        
+
                     </Nav>
                 </Navbar.Collapse>
             </Container>
