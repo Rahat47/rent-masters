@@ -7,6 +7,7 @@ import {
     faMapMarkerAlt,
 } from "@fortawesome/free-solid-svg-icons";
 import { Card, Button, Col, Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const HotelCard = ({ room }) => {
     return (
@@ -14,10 +15,17 @@ const HotelCard = ({ room }) => {
             <Card style={{ width: "26rem" }}>
                 <Card.Img variant="top" src={room.img} />
                 <Card.Body>
-                    <Card.Title>{room.title}</Card.Title>
+                    <Card.Title>
+                        <Link
+                            className="text-decoration-none fs-3 "
+                            to={`/room/${room.id}`}
+                        >
+                            {room.title}
+                        </Link>
+                    </Card.Title>
                     <Card.Text>
                         <FontAwesomeIcon icon={faMapMarkerAlt} />
-                        {room.address}
+                        &nbsp; {room.address}
                     </Card.Text>
                     <Row className="p-2">
                         <Col>

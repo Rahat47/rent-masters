@@ -4,10 +4,12 @@ import hotelImg3 from '../images/The-Peninsula.jpg';
 import hotelImg4 from '../images/Jatra-Rooms.jpg';
 import hotelImg5 from '../images/The-Avenue-Hotel.jpg';
 import hotelImg6 from '../images/Royal-Living-Hotel.jpg';
+import { v4 as uuidv4 } from 'uuid'
 
 //Export the hotels info array from here
 export const hotelsInfo = [
     {
+        id: uuidv4(),
         title: 'Radisson Blu Chattogram',
         img: hotelImg1,
         address: 'SS Khaled Road Lalkhan Bazar, Chittagong',
@@ -18,6 +20,7 @@ export const hotelsInfo = [
         price: 2000
     },
     {
+        id: uuidv4(),
         title: 'Radisson Blu Chattogram',
         img: hotelImg2,
         address: 'Plot # 02, Road # 01, O.R. Nizam Road, Chittagong',
@@ -28,6 +31,7 @@ export const hotelsInfo = [
         price: 1800
     },
     {
+        id: uuidv4(),
         title: 'Radisson Blu Chattogram',
         img: hotelImg3,
         address: 'Bulbul Centre, 486/B, O.R.Nizam Road, CDA Avenue',
@@ -38,6 +42,7 @@ export const hotelsInfo = [
         price: 1200
     },
     {
+        id: uuidv4(),
         title: 'Radisson Blu Chattogram',
         img: hotelImg4,
         address: 'M M Ali Road. GEC More, T M T Ismail Tower 11/1',
@@ -48,6 +53,7 @@ export const hotelsInfo = [
         price: 2200
     },
     {
+        id: uuidv4(),
         title: 'Radisson Blu Chattogram',
         img: hotelImg5,
         address: 'Ispahani Moor, Lalkhan Bazar, 4150 Chittagong',
@@ -58,6 +64,7 @@ export const hotelsInfo = [
         price: 1900
     },
     {
+        id: uuidv4(),
         title: 'Radisson Blu Chattogram',
         img: hotelImg6,
         address: '431, D.T. Road, Kadamtoli, 4100 Chittagong',
