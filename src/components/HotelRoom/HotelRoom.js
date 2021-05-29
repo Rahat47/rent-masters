@@ -9,14 +9,12 @@ const HotelRoom = () => {
 
     const selectedRoom = useSelector(state => state.rooms.find(room => room.id === id))
 
-
-
     return (
         <div>
             <section className="header">
                 <div className="hotel-text d-flex  align-items-center justify-content-center">
                     {" "}
-                    <h1>{selectedRoom.title}</h1>
+                    <h1>{selectedRoom?.title}</h1>
                 </div>
             </section>
 
@@ -25,7 +23,7 @@ const HotelRoom = () => {
                     <div className="col-md-8">
                         <div>
                             <div>
-                                <img src={selectedRoom.img} width="100%" alt="img1" />
+                                <img src={selectedRoom?.img} width="100%" alt="img1" />
                             </div>
                             <div className="mt-4">
                                 <div className="row">
@@ -33,12 +31,12 @@ const HotelRoom = () => {
                                         <h2>Hotel Details</h2>
                                     </div>
                                     <div className="col">
-                                        <h2>Price: $ {selectedRoom.price}</h2>
+                                        <h2>Price: $ {selectedRoom?.price}</h2>
                                     </div>
                                 </div>
                                 <div>
                                     <p>
-                                        {selectedRoom.description}
+                                        {selectedRoom?.description}
                                     </p>
                                 </div>
                             </div>

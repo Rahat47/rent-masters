@@ -43,7 +43,7 @@ const HotelCard = ({ room }) => {
                     </Row>
                     <Row>
                         <Col>
-                            <Link to="/room">
+                            <Link to={`/room/${room.id}`}>
                                 <Button variant="primary">Book Now</Button>
                             </Link>
                         </Col>
