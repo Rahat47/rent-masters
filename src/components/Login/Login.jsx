@@ -87,7 +87,7 @@ function Login() {
                         </div>
                     </p>
                     <h3 className="text-warning">Or</h3>
-                    <div class="d-grid gap-2">
+                    <div className="d-grid gap-2">
                         <button
                             className="btn btn-danger"
                             onClick={async () => {
@@ -131,7 +131,6 @@ function Login() {
                             Continue With GitHub
                         </button>
                     </div>
-                    <p></p>
 
                     {user.success && (
                         <p style={{ color: "green" }}>
