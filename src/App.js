@@ -10,6 +10,10 @@ function App() {
   return (
     <Router>
       <NavBar />
+<<<<<<< HEAD
+=======
+
+>>>>>>> ae0ef5aa271df08ca2504ebf99c098df949a670c
 
       <Switch>
         <Route exact path="/" component={Home} />
