@@ -1,5 +1,5 @@
-const getHotels = () => {
+export const getHotels = () => {
     return {
-        type: "GETHOTELS"
+        type: "FETCH_ALL"
     }
 }

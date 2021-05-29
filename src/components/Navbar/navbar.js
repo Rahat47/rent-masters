@@ -1,10 +1,14 @@
 import React from "react";
-import { Container, Nav, Navbar } from "react-bootstrap";
+import { Button, Container, Nav, Navbar } from "react-bootstrap";
+import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import { Link as LinkScroll } from "react-scroll";
+import { logout } from "../../redux/actions/authActions";
 import styles from "./navbar.module.css";
-
 const NavBar = () => {
+
+    const user = useSelector(state => state.auth.authData)
+    const dispatch = useDispatch()
     return (
         <Navbar bg="white" expand="lg">
             <Container>
@@ -41,9 +45,15 @@ const NavBar = () => {
                         >
                             Contact
                         </Nav.Link>
-                        <Nav.Link as={Link} to="/auth">
-                            <b>Login</b>
-                        </Nav.Link>
+                        {
+                            user ? <Nav.Link as={Button} variant="warning" onClick={() => {
+                                dispatch(logout())
+                            }} >
+                                <b>{`Logout ${user.name}?`} </b>
+                            </Nav.Link> : <Nav.Link as={Link} to="/auth">
+                                <b>Login</b>
+                            </Nav.Link>
+                        }
                     </Nav>
                 </Navbar.Collapse>
             </Container>

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./HotelRoom.css";
 import img1 from "../../assets/images/Radisson-Blu.jpg";
 import { Button, Form } from "react-bootstrap";
@@ -13,9 +13,9 @@ const HotelRoom = () => {
                 </div>
             </section>
 
-            <section class="container mb-5">
-                <div class="row mt-4">
-                    <div class="col-md-8">
+            <section className="container mb-5">
+                <div className="row mt-4">
+                    <div className="col-md-8">
                         <div>
                             <div>
                                 <img src={img1} width="100%" alt="img1" />
@@ -66,7 +66,7 @@ const HotelRoom = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div className="col-md-4">
                         <Form>
                             <Form.Group controlId="formBasicEmail">
                                 <Form.Control
