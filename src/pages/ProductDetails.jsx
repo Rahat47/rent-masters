@@ -1,9 +1,11 @@
 import React from "react";
+import { Container } from "react-bootstrap";
+import HotelRoom from "../components/HotelRoom/HotelRoom";
 
 const ProductDetails = () => {
     return (
         <div>
-            <h1>Product Details Page</h1>
+           <HotelRoom></HotelRoom>
         </div>
     );
 };
