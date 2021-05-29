@@ -11,7 +11,7 @@ const Footer = () => {
         <div className={styles.container}>
             <div className="container py-5">
                 <div className="row">
-                    <div className="col-md-5">
+                    <div className="col-sm-6 col-md-5">
                         <FontAwesomeIcon icon={faMapMarkerAlt} /> H#340 (4th
                         Floor), Road #24, New DOHS, Mohakhali, <br /> Dhaka,
                         Bangladesh
@@ -28,7 +28,7 @@ const Footer = () => {
                             </li>
                         </ul>
                     </div>
-                    <div className="col-md-2">
+                    <div className="col-sm-6 col-md-2">
                         <h4>Company</h4>
                         <ul className="list-unstyled">
                             <li>About Site</li>
@@ -38,7 +38,7 @@ const Footer = () => {
                             <li>Submit Listing</li>
                         </ul>
                     </div>
-                    <div className="col-md-2">
+                    <div className="col-sm-6 col-md-2">
                         <h4>Quick Links</h4>
                         <ul className="list-unstyled">
                             <li>Quick Links</li>
@@ -49,7 +49,7 @@ const Footer = () => {
                             <li>Our blog</li>
                         </ul>
                     </div>
-                    <div className="col-md-3 ">
+                    <div className="col-sm-6 col-md-3 ">
                         <h4>About us</h4> We are the top real estate agency in
                         Sydney, with agents available to answer any question
                         24/7 <br />
