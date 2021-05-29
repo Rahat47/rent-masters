@@ -17,7 +17,8 @@ export const hotelsInfo = [
         capacity: 1,
         bedType: 'Double',
         bathroom: 1,
-        price: 2000
+        price: 2000, 
+        description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt inventore fugit velit atque rem accusantium, est possimus doloribus voluptate in deserunt tempora distinctio similique, aliquam, esse modi quia asperiores animi enim nam temporibus nostrum sed quod fugiat? Possimus ipsa inventore fugiat aperiam aliquam, nisi laudantium accusantium odio distinctio ea hic eligendi velit dolore dolor maxime exercitationem. Dolores sed voluptatibus vitae ullam delectus exercitationem explicabo quis? Neque labore quo itaque mollitia, est asperiores eos totam officiis suscipit esse numquam repudiandae dicta minima explicabo eum eveniet ratione illo ducimus cumque? Neque nemo distinctio sint nam corrupti excepturi quos ea amet suscipit omnis? Molestias, nihil maxime assumenda itaque corporis eligendi reprehenderit vel beatae tempore veritatis quidem consectetur suscipit magnam earum voluptatem, cumque minus blanditiis enim. Commodi modi corporis quas maxime totam, ipsam voluptatum quo id ipsa deserunt maiores minima, magni ducimus, rerum et labore amet voluptatibus? Velit dolorum incidunt atque? Nam, sapiente cumque!"
     },
     {
         id: uuidv4(),
@@ -28,7 +29,8 @@ export const hotelsInfo = [
         capacity: 1,
         bedType: 'Double',
         bathroom: 1,
-        price: 1800
+        price: 1800,
+        description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt inventore fugit velit atque rem accusantium, est possimus doloribus voluptate in deserunt tempora distinctio similique, aliquam, esse modi quia asperiores animi enim nam temporibus nostrum sed quod fugiat? Possimus ipsa inventore fugiat aperiam aliquam, nisi laudantium accusantium odio distinctio ea hic eligendi velit dolore dolor maxime exercitationem. Dolores sed voluptatibus vitae ullam delectus exercitationem explicabo quis? Neque labore quo itaque mollitia, est asperiores eos totam officiis suscipit esse numquam repudiandae dicta minima explicabo eum eveniet ratione illo ducimus cumque? Neque nemo distinctio sint nam corrupti excepturi quos ea amet suscipit omnis? Molestias, nihil maxime assumenda itaque corporis eligendi reprehenderit vel beatae tempore veritatis quidem consectetur suscipit magnam earum voluptatem, cumque minus blanditiis enim. Commodi modi corporis quas maxime totam, ipsam voluptatum quo id ipsa deserunt maiores minima, magni ducimus, rerum et labore amet voluptatibus? Velit dolorum incidunt atque? Nam, sapiente cumque!"
     },
     {
         id: uuidv4(),
@@ -39,7 +41,8 @@ export const hotelsInfo = [
         capacity: 1,
         bedType: 'Single',
         bathroom: 1,
-        price: 1200
+        price: 1200,
+        description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt inventore fugit velit atque rem accusantium, est possimus doloribus voluptate in deserunt tempora distinctio similique, aliquam, esse modi quia asperiores animi enim nam temporibus nostrum sed quod fugiat? Possimus ipsa inventore fugiat aperiam aliquam, nisi laudantium accusantium odio distinctio ea hic eligendi velit dolore dolor maxime exercitationem. Dolores sed voluptatibus vitae ullam delectus exercitationem explicabo quis? Neque labore quo itaque mollitia, est asperiores eos totam officiis suscipit esse numquam repudiandae dicta minima explicabo eum eveniet ratione illo ducimus cumque? Neque nemo distinctio sint nam corrupti excepturi quos ea amet suscipit omnis? Molestias, nihil maxime assumenda itaque corporis eligendi reprehenderit vel beatae tempore veritatis quidem consectetur suscipit magnam earum voluptatem, cumque minus blanditiis enim. Commodi modi corporis quas maxime totam, ipsam voluptatum quo id ipsa deserunt maiores minima, magni ducimus, rerum et labore amet voluptatibus? Velit dolorum incidunt atque? Nam, sapiente cumque!"
     },
     {
         id: uuidv4(),
@@ -50,7 +53,8 @@ export const hotelsInfo = [
         capacity: 1,
         bedType: 'Double',
         bathroom: 1,
-        price: 2200
+        price: 2200,
+        description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt inventore fugit velit atque rem accusantium, est possimus doloribus voluptate in deserunt tempora distinctio similique, aliquam, esse modi quia asperiores animi enim nam temporibus nostrum sed quod fugiat? Possimus ipsa inventore fugiat aperiam aliquam, nisi laudantium accusantium odio distinctio ea hic eligendi velit dolore dolor maxime exercitationem. Dolores sed voluptatibus vitae ullam delectus exercitationem explicabo quis? Neque labore quo itaque mollitia, est asperiores eos totam officiis suscipit esse numquam repudiandae dicta minima explicabo eum eveniet ratione illo ducimus cumque? Neque nemo distinctio sint nam corrupti excepturi quos ea amet suscipit omnis? Molestias, nihil maxime assumenda itaque corporis eligendi reprehenderit vel beatae tempore veritatis quidem consectetur suscipit magnam earum voluptatem, cumque minus blanditiis enim. Commodi modi corporis quas maxime totam, ipsam voluptatum quo id ipsa deserunt maiores minima, magni ducimus, rerum et labore amet voluptatibus? Velit dolorum incidunt atque? Nam, sapiente cumque!"
     },
     {
         id: uuidv4(),
@@ -61,7 +65,8 @@ export const hotelsInfo = [
         capacity: 1,
         bedType: 'Double',
         bathroom: 1,
-        price: 1900
+        price: 1900,
+        description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt inventore fugit velit atque rem accusantium, est possimus doloribus voluptate in deserunt tempora distinctio similique, aliquam, esse modi quia asperiores animi enim nam temporibus nostrum sed quod fugiat? Possimus ipsa inventore fugiat aperiam aliquam, nisi laudantium accusantium odio distinctio ea hic eligendi velit dolore dolor maxime exercitationem. Dolores sed voluptatibus vitae ullam delectus exercitationem explicabo quis? Neque labore quo itaque mollitia, est asperiores eos totam officiis suscipit esse numquam repudiandae dicta minima explicabo eum eveniet ratione illo ducimus cumque? Neque nemo distinctio sint nam corrupti excepturi quos ea amet suscipit omnis? Molestias, nihil maxime assumenda itaque corporis eligendi reprehenderit vel beatae tempore veritatis quidem consectetur suscipit magnam earum voluptatem, cumque minus blanditiis enim. Commodi modi corporis quas maxime totam, ipsam voluptatum quo id ipsa deserunt maiores minima, magni ducimus, rerum et labore amet voluptatibus? Velit dolorum incidunt atque? Nam, sapiente cumque!"
     },
     {
         id: uuidv4(),
@@ -72,7 +77,8 @@ export const hotelsInfo = [
         capacity: 1,
         bedType: 'Single',
         bathroom: 1,
-        price: 1100
+        price: 1100,
+        description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt inventore fugit velit atque rem accusantium, est possimus doloribus voluptate in deserunt tempora distinctio similique, aliquam, esse modi quia asperiores animi enim nam temporibus nostrum sed quod fugiat? Possimus ipsa inventore fugiat aperiam aliquam, nisi laudantium accusantium odio distinctio ea hic eligendi velit dolore dolor maxime exercitationem. Dolores sed voluptatibus vitae ullam delectus exercitationem explicabo quis? Neque labore quo itaque mollitia, est asperiores eos totam officiis suscipit esse numquam repudiandae dicta minima explicabo eum eveniet ratione illo ducimus cumque? Neque nemo distinctio sint nam corrupti excepturi quos ea amet suscipit omnis? Molestias, nihil maxime assumenda itaque corporis eligendi reprehenderit vel beatae tempore veritatis quidem consectetur suscipit magnam earum voluptatem, cumque minus blanditiis enim. Commodi modi corporis quas maxime totam, ipsam voluptatum quo id ipsa deserunt maiores minima, magni ducimus, rerum et labore amet voluptatibus? Velit dolorum incidunt atque? Nam, sapiente cumque!"
     },
 
 ]
