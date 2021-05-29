@@ -1,9 +1,9 @@
 //import Footer from "./Footer"
-import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
+import Header from "../components/Header/Header";
+import HotelsContainer from "../components/Hotels/HotelsContainer";
 import NavBar from "../components/Navbar/navbar";
 import Service from "../components/Services/Service";
-import HotelsContainer from "../components/Hotels/HotelsContainer";
 
 const Home = () => {
     return (
