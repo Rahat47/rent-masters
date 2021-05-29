@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
     faBed,
@@ -8,8 +8,11 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { Card, Button, Col, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import { hotelsInfo } from "../../assets/data/data";
+
 
 const HotelCard = ({ room }) => {
+
     return (
         <Col>
             <Card style={{ width: "26rem" }}>
