@@ -29,7 +29,6 @@ const NavBar = () => {
                             as={LinkScroll}
                             to="hotels"
                             spy
-                            smooth
                             offset={-50}
                             style={{ cursor: "pointer" }}
                         >
@@ -39,19 +38,18 @@ const NavBar = () => {
                             as={LinkScroll}
                             to="footer"
                             spy
-                            smooth
                             offset={-50}
                             style={{ cursor: "pointer" }}
                         >
                             Contact
                         </Nav.Link>
                         {
-                            user ? <Nav.Link as={Button} variant="warning" onClick={() => {
+                            user ? <Nav.Link as={Button} variant="danger" onClick={() => {
                                 dispatch(logout())
                             }} >
-                                <b>{`Logout ${user.name}?`} </b>
+                                <strong>{`Logout ${user.name}?`} </strong>
                             </Nav.Link> : <Nav.Link as={Link} to="/auth">
-                                <b>Login</b>
+                                <strong>Login</strong>
                             </Nav.Link>
                         }
                     </Nav>
