@@ -16,7 +16,7 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route exact path="/auth" component={Auth} />
         <Route exact path="/dashboard" component={Dashboard} />
-        <Route exact path="/room/:id" component={ProductDetails} />
+        <Route exact path="/room" component={ProductDetails} />
       </Switch>
       <Footer />
 
