@@ -4,9 +4,13 @@ import Dashboard from './pages/Dashboard';
 import Home from './pages/Home';
 import ProductDetails from './pages/ProductDetails';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import NavBar from './components/Navbar/navbar';
+import Footer from './components/Footer/Footer';
 function App() {
   return (
     <Router>
+      <NavBar />
+
 
       <Switch>
         <Route exact path="/" component={Home} />
@@ -14,6 +18,7 @@ function App() {
         <Route exact path="/dashboard" component={Dashboard} />
         <Route exact path="/product/:id" component={ProductDetails} />
       </Switch>
+      <Footer />
 
     </Router>
   );
