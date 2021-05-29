@@ -11,3 +11,7 @@
     background: #ffffff;
     box-shadow: 8px 8px 25px #ababab, -8px -8px 25px #ffffff;
 }
+
+.form {
+    transition: all 300ms ease-in-out;
+}
