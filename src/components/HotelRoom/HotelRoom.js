@@ -5,10 +5,16 @@ import { useParams } from "react-router";
 import { useSelector } from "react-redux";
 
 const HotelRoom = () => {
-    const { id } = useParams()
+    const { id } = useParams();
 
-    const selectedRoom = useSelector(state => state.rooms.find(room => room.id === id))
+    const selectedRoom = useSelector(state =>
+        state.rooms.find(room => room.id === id)
+    );
 
+    const handleSubmit = e => {
+        e.preventDefault();
+        alert("Your Order Is Recieved.");
+    };
     return (
         <div>
             <section className="header">
@@ -23,7 +29,11 @@ const HotelRoom = () => {
                     <div className="col-md-8">
                         <div>
                             <div>
-                                <img src={selectedRoom?.img} width="100%" alt="img1" />
+                                <img
+                                    src={selectedRoom?.img}
+                                    width="100%"
+                                    alt="img1"
+                                />
                             </div>
                             <div className="mt-4">
                                 <div className="row">
@@ -35,17 +45,16 @@ const HotelRoom = () => {
                                     </div>
                                 </div>
                                 <div>
-                                    <p>
-                                        {selectedRoom?.description}
-                                    </p>
+                                    <p>{selectedRoom?.description}</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div className="col-md-4">
-                        <Form>
+                        <Form onSubmit={handleSubmit} autoComplete="off">
                             <Form.Group controlId="formBasicEmail">
                                 <Form.Control
+                                    required
                                     type="text"
                                     placeholder="Full Name"
                                 />
@@ -55,6 +64,7 @@ const HotelRoom = () => {
                                 controlId="formBasicEmail"
                             >
                                 <Form.Control
+                                    required
                                     type="tel"
                                     placeholder="Phone Number"
                                 />
@@ -64,6 +74,7 @@ const HotelRoom = () => {
                                 controlId="formBasicEmail"
                             >
                                 <Form.Control
+                                    required
                                     type="email"
                                     placeholder="Enter email"
                                 />
@@ -73,6 +84,7 @@ const HotelRoom = () => {
                                 controlId="exampleForm.ControlTextarea1"
                             >
                                 <Form.Control
+                                    required
                                     as="textarea"
                                     placeholder="Massage"
                                     rows={3}
