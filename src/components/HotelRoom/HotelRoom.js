@@ -1,10 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './HotelRoom.css';
 import img1 from '../../assets/images/Radisson-Blu.jpg';
 import { Form } from 'react-bootstrap';
 import { Button } from 'bootstrap';
 
+
 const HotelRoom = () => {
+
+
     return (
         <div>
             <section className="header">

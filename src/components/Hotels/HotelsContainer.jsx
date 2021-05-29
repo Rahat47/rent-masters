@@ -9,7 +9,7 @@ const HotelsContainer = () => {
     return (
         <>
             <Heading title="Discover Hotels For Rent" subtitle="Our Hotels" />
-            <Container>
+            <Container id="hotels">
                 <Row>
                     {/* map the array and render the hotel Card component */}
                     {hotelsInfo.map((room, i) => (
