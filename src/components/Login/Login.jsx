@@ -3,6 +3,7 @@ import { fab } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
 import { Button } from "react-bootstrap";
+import { useDispatch } from "react-redux";
 import { useHistory, useLocation } from "react-router-dom";
 import { fbaseGoogleSignIn } from "../../firebase/firebaseAuth";
 import styles from "./Login.module.css";
@@ -17,6 +18,7 @@ function Login() {
     const history = useHistory();
     const location = useLocation();
     let { from } = location.state || { from: { pathname: "/" } };
+    const dispatch = useDispatch();
 
     const handleLogin = user => {
         const newUser = {
@@ -27,7 +29,6 @@ function Login() {
             isLoggedIn: true,
         };
         setUser(newUser);
-        localStorage.setItem("user", JSON.stringify(newUser));
         history.replace(from);
     };
 
