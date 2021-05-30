@@ -1,7 +1,7 @@
 import React from "react";
 import HotelRoom from "../components/HotelRoom/HotelRoom";
 
-const ProductDetails = () => {
+const RoomDetails = () => {
     return (
         <div>
            <HotelRoom></HotelRoom>
@@ -9,4 +9,4 @@ const ProductDetails = () => {
     );
 };
 
-export default ProductDetails;
+export default RoomDetails;
