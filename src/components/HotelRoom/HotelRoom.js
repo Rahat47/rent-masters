@@ -38,6 +38,23 @@ const HotelRoom = () => {
                             <div className="mt-4">
                                 <div className="row">
                                     <div className="col-8">
+                                        <h2>Room Details</h2>
+                                    </div>
+                                </div>
+                                <div className="row">
+                                    <div className="col-8">
+                                        <p> <b>Bed: </b> {selectedRoom?.bed}</p>
+                                        <p> <b>Bed Type: </b> {selectedRoom?.bedType}</p>
+                                    </div>
+                                    <div className="col-4">
+                                        <p><b>Capacity:</b> {selectedRoom?.capacity}</p>
+                                        <p><b>Bathroom:</b> {selectedRoom?.bathroom}</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="mt-4"> 
+                                <div className="row">
+                                    <div className="col-8">
                                         <h2>Hotel Details</h2>
                                     </div>
                                     <div className="col">
