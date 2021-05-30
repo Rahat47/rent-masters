@@ -6,12 +6,12 @@ import ProductDetails from './pages/ProductDetails';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from './components/Navbar/navbar';
 import Footer from './components/Footer/Footer';
+import ScrollToTop from './utils/ScrollToTop';
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <NavBar />
-
-
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/auth" component={Auth} />
