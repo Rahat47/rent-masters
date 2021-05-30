@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Button, Form } from "react-bootstrap";
 import Styles from "./AddHouse.module.css";
 
@@ -12,9 +12,17 @@ const initialState = {
 };
 
 const AddHouse = () => {
+    const [formData, setFormData] = useState(initialState);
+
     const handleSubmit = e => {
         e.preventDefault();
     };
+
+    const handleChange = e => {
+        const newFormData = { ...formData, [e.target.name]: e.target.value };
+        setFormData(newFormData);
+    };
+    console.log(formData);
     return (
         <div className={Styles.mainContainer}>
             <div className={Styles.formContainer}>
@@ -26,6 +34,21 @@ const AddHouse = () => {
                                 <Form.Control
                                     type="text"
                                     placeholder="Enter Title"
+                                    name="title"
+                                    onChange={handleChange}
+                                />
+                            </Form.Group>
+                            <Form.Group
+                                className="mb-3"
+                                controlId="description"
+                            >
+                                <Form.Label>Room Details</Form.Label>
+                                <Form.Control
+                                    placeholder="Room Details"
+                                    onChange={handleChange}
+                                    name="description"
+                                    as="textarea"
+                                    rows={3}
                                 />
                             </Form.Group>
 
@@ -33,13 +56,18 @@ const AddHouse = () => {
                                 <Form.Label>Location</Form.Label>
                                 <Form.Control
                                     type="text"
+                                    onChange={handleChange}
+                                    name="address"
                                     placeholder="Enter Location"
                                 />
                             </Form.Group>
                             <Form.Group className="mb-3" controlId="location">
                                 <Form.Label>No of Bathrooms</Form.Label>
                                 <Form.Control
-                                    type="text"
+                                    type="number"
+                                    onChange={handleChange}
+                                    min={1}
+                                    name="bathroom"
                                     placeholder="Number of Bathrooms"
                                 />
                             </Form.Group>
@@ -50,7 +78,10 @@ const AddHouse = () => {
                             <Form.Group className="mb-3" controlId="price">
                                 <Form.Label>Price</Form.Label>
                                 <Form.Control
-                                    type="text"
+                                    type="number"
+                                    onChange={handleChange}
+                                    min={1}
+                                    name="price"
                                     placeholder="Enter Price"
                                 />
                             </Form.Group>
@@ -58,17 +89,23 @@ const AddHouse = () => {
                             <Form.Group className="mb-3" controlId="rooms">
                                 <Form.Label>No of BedRooms</Form.Label>
                                 <Form.Control
-                                    type="text"
+                                    type="number"
+                                    onChange={handleChange}
+                                    name="bed"
+                                    min={0}
                                     placeholder="Number of Rooms"
                                 />
                             </Form.Group>
 
                             <div class="mb-3">
-                                <label for="formFile" class="form-label">
+                                <label
+                                    htmlFor="formFile"
+                                    className="form-label"
+                                >
                                     Upload room image
                                 </label>
                                 <input
-                                    class="form-control"
+                                    className="form-control"
                                     type="file"
                                     id="formFile"
                                 />
