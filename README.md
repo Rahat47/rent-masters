@@ -29,7 +29,7 @@ https://rent-masters-rdx.web.app/?fbclid=IwAR1OnRTK47jcmASLnh5FmGo7mzuA7EmwAttzf
 # Contributors
 
 ## TEAM79
-#### Rayhan Hossain Rahat
+#### Rayhan Hossain Rahat (Project Manager)
 #### MD Razikul Islam
 #### Md. Azizul Haque Jany
   
