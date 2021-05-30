@@ -1,24 +1,17 @@
 import { faEdit, faTrashAlt } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { remove } from "../../redux/actions/hotelsActions";
 import Sidebar from "../Sidebar/Sidebar";
 import Styles from "./AddHouse.module.css";
 
 const ManageService = () => {
-    const [services, setServices] = React.useState([]);
-
-    React.useEffect(() => {
-        fetch("https://powerful-basin-68172.herokuapp.com/services")
-            .then((res) => res.json())
-            .then((data) => setServices(data));
-    }, [services]);
+    const dispatch = useDispatch();
+    const services = useSelector(state => state.rooms);
 
     function deleteEvent(id) {
-        fetch(`https://powerful-basin-68172.herokuapp.com/delete/${id}`, {
-            method: "DELETE",
-        })
-            .then((res) => res.json())
-            .then((result) => console.log("deleted successfully", result));
+        dispatch(remove(id));
     }
 
     return (
@@ -40,10 +33,10 @@ const ManageService = () => {
                                 <th>Edit</th>
                                 <th>Delete</th>
                             </tr>
-                            {services.map((service) => (
-                                <tr key={service._id}>
-                                    <td>{service.serviceName}</td>
-                                    <td>{service.serviceCharge}</td>
+                            {services.map(service => (
+                                <tr key={service.id}>
+                                    <td>{service.title}</td>
+                                    <td>{service.price}</td>
                                     <td style={{ cursor: "pointer" }}>
                                         <FontAwesomeIcon
                                             className="edit text-success"
@@ -53,7 +46,7 @@ const ManageService = () => {
                                     <td style={{ cursor: "pointer" }}>
                                         <FontAwesomeIcon
                                             onClick={() =>
-                                                deleteEvent(`${service._id}`)
+                                                deleteEvent(`${service.id}`)
                                             }
                                             className="delete text-danger"
                                             icon={faTrashAlt}
