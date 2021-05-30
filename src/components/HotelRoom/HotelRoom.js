@@ -111,6 +111,7 @@ const HotelRoom = () => {
                                 style={{ width: "100%" }}
                                 type="submit"
                                 className="mt-4 mb-4"
+                                title="formBtn"
                             >
                                 Booking Request
                             </Button>
