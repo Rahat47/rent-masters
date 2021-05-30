@@ -36,7 +36,7 @@ const NavBar = () => {
                         </Nav.Link>
                         <Nav.Link
                             as={Link}
-                            to="dashboard"
+                            to="/dashboard"
                             spy
                             offset={-50}
                             style={{ cursor: "pointer" }}
