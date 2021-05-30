@@ -1,10 +1,12 @@
 import React, { useState } from "react";
 import { Button, Form } from "react-bootstrap";
+import { useDispatch } from "react-redux";
 import Styles from "./AddHouse.module.css";
-
+import { v4 as uuidv4 } from "uuid";
+import { add } from "../../redux/actions/hotelsActions";
 const initialState = {
     title: "",
-    img: "",
+    img: "https://i.ibb.co/Z8187t4/andhika-soreng-US06-QF-sxu8-unsplash.jpg",
     address: "",
     bed: 0,
     bathroom: 0,
@@ -13,22 +15,32 @@ const initialState = {
 
 const AddHouse = () => {
     const [formData, setFormData] = useState(initialState);
-
+    const dispatch = useDispatch();
     const handleSubmit = e => {
         e.preventDefault();
+
+        const newRoom = {
+            ...formData,
+            id: uuidv4(),
+            capacity: 1,
+            bedType: "Double",
+        };
+
+        dispatch(add(newRoom));
+        alert("new Room added Successfully");
+        setFormData(initialState);
     };
 
     const handleChange = e => {
         const newFormData = { ...formData, [e.target.name]: e.target.value };
         setFormData(newFormData);
     };
-    console.log(formData);
     return (
         <div className={Styles.mainContainer}>
             <div className={Styles.formContainer}>
-                <div className="row">
-                    <div className="col-md-6">
-                        <Form onSubmit={handleSubmit}>
+                <Form onSubmit={handleSubmit}>
+                    <div className="row">
+                        <div className="col-md-6">
                             <Form.Group className="mb-3" controlId="service">
                                 <Form.Label>Room Title</Form.Label>
                                 <Form.Control
@@ -36,6 +48,7 @@ const AddHouse = () => {
                                     placeholder="Enter Title"
                                     name="title"
                                     onChange={handleChange}
+                                    required
                                 />
                             </Form.Group>
                             <Form.Group
@@ -46,6 +59,7 @@ const AddHouse = () => {
                                 <Form.Control
                                     placeholder="Room Details"
                                     onChange={handleChange}
+                                    required
                                     name="description"
                                     as="textarea"
                                     rows={3}
@@ -66,21 +80,21 @@ const AddHouse = () => {
                                 <Form.Control
                                     type="number"
                                     onChange={handleChange}
+                                    required
                                     min={1}
                                     name="bathroom"
                                     placeholder="Number of Bathrooms"
                                 />
                             </Form.Group>
-                        </Form>
-                    </div>
-                    <div className="col-md-6">
-                        <Form>
+                        </div>
+                        <div className="col-md-6">
                             <Form.Group className="mb-3" controlId="price">
                                 <Form.Label>Price</Form.Label>
                                 <Form.Control
                                     type="number"
                                     onChange={handleChange}
                                     min={1}
+                                    required
                                     name="price"
                                     placeholder="Enter Price"
                                 />
@@ -91,33 +105,24 @@ const AddHouse = () => {
                                 <Form.Control
                                     type="number"
                                     onChange={handleChange}
+                                    required
                                     name="bed"
                                     min={0}
                                     placeholder="Number of Rooms"
                                 />
                             </Form.Group>
-
-                            <div class="mb-3">
-                                <label
-                                    htmlFor="formFile"
-                                    className="form-label"
+                            <div className="d-flex justify-content-end me-2">
+                                <Button
+                                    className="mt-3 px-4"
+                                    variant="success"
+                                    type="submit"
                                 >
-                                    Upload room image
-                                </label>
-                                <input
-                                    className="form-control"
-                                    type="file"
-                                    id="formFile"
-                                />
+                                    Submit
+                                </Button>
                             </div>
-                        </Form>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div className="d-flex justify-content-end me-2">
-                <Button className="mt-3 px-4" variant="success" type="submit">
-                    Submit
-                </Button>
+                </Form>
             </div>
         </div>
     );

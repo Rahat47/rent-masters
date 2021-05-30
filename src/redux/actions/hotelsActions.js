@@ -4,3 +4,10 @@ export const getAll = () => {
         type: "FETCH_ALL"
     }
 }
+
+export const add = (payload) => {
+    return {
+        type: "ADD",
+        payload
+    }
+}
