@@ -9,7 +9,7 @@ import styles from "./Footer.module.css";
 const Footer = () => {
     return (
         <div className={styles.container} id="footer">
-            <div className="container py-5">
+            <div className="container py-5 text-white">
                 <div className="row">
                     <div className="col-sm-6 col-md-5">
                         <FontAwesomeIcon icon={faMapMarkerAlt} /> H#340 (4th
