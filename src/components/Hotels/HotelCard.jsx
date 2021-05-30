@@ -12,7 +12,7 @@ import { Link } from "react-router-dom";
 const HotelCard = ({ room }) => {
     return (
         <Col>
-            <Card style={{ width: "26rem" }}>
+            <Card className="card" style={{ width: "26rem" }}>
                 <Card.Img variant="top" src={room.img} />
                 <Card.Body>
                     <Card.Title>
