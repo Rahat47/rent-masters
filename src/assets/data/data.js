@@ -18,6 +18,14 @@ export const hotelsInfo = [
         bathroom: 1,
         price: 2000,
         description: "Featuring a fitness centre, Radisson Blu Chittagong Bay View offers accommodation in Chittagong. Guests can enjoy the on-site multi-cuisine restaurant. Free WiFi is available throughout the property.Rooms come with a flat-screen satellite TV and a seating area for your convenience. All rooms have views of the mountains or city. Every room is equipped with a private bathroom fitted with a shower.You will find a 24-hour front desk and concierge desk at the property. Free parking is offered.The Chittagong Cricket Stadium is 7 km, the Khejur Tola Beach is 15 km and the Patenga Sea Beach is 16.2 km. The Halishahar Railway Station is 5.8 km. The Chittagong Bus Station is 9.8 km and the Shah Amanat International Airport is 14 km. The Shahjalal International Airport is 284 km.Couples particularly like the location — they rated it 9.3 for a two-person trip."
+<<<<<<< HEAD
+=======
+    },
+    {
+        id: uuidv4(),
+        title: 'Hotel Agrabad',
+        description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt inventore fugit velit atque rem accusantium, est possimus doloribus voluptate in deserunt tempora distinctio similique, aliquam, esse modi quia asperiores animi enim nam temporibus nostrum sed quod fugiat? Possimus ipsa inventore fugiat aperiam aliquam, nisi laudantium accusantium odio distinctio ea hic eligendi velit dolore dolor maxime exercitationem. Dolores sed voluptatibus vitae ullam delectus exercitationem explicabo quis? Neque labore quo itaque mollitia, est asperiores eos totam officiis suscipit esse numquam repudiandae dicta minima explicabo eum eveniet ratione illo ducimus cumque? Neque nemo distinctio sint nam corrupti excepturi quos ea amet suscipit omnis? Molestias, nihil maxime assumenda itaque corporis eligendi reprehenderit vel beatae tempore veritatis quidem consectetur suscipit magnam earum voluptatem, cumque minus blanditiis enim. Commodi modi corporis quas maxime totam, ipsam voluptatum quo id ipsa deserunt maiores minima, magni ducimus, rerum et labore amet voluptatibus? Velit dolorum incidunt atque? Nam, sapiente cumque!"
+>>>>>>> 723121e715282b54d08ebcd1d8600f4aca1429f2
     },
     {
         id: uuidv4(),
@@ -52,6 +60,11 @@ export const hotelsInfo = [
     {
         id: uuidv4(),
         title: 'The Peninsula',
+<<<<<<< HEAD
+=======
+        id: "60b281e6fc13ae7a48001641",
+        title: 'Radisson Blu Chattogram',
+>>>>>>> 723121e715282b54d08ebcd1d8600f4aca1429f2
         img: hotelImg4,
         address: 'M M Ali Road. GEC More, T M T Ismail Tower 11/1',
         bed: 1,
@@ -64,6 +77,11 @@ export const hotelsInfo = [
     {
         id: uuidv4(),
         title: 'Jatra Rooms',
+<<<<<<< HEAD
+=======
+        id: "60b281e6fc13ae7a48001642",
+        title: 'Radisson Blu Chattogram',
+>>>>>>> 723121e715282b54d08ebcd1d8600f4aca1429f2
         img: hotelImg5,
         address: 'Ispahani Moor, Lalkhan Bazar, 4150 Chittagong',
         bed: 1,
@@ -76,6 +94,11 @@ export const hotelsInfo = [
     {
         id: uuidv4(),
         title: 'The Avenue Hotel',
+<<<<<<< HEAD
+=======
+        id: "60b281e6fc13ae7a48001643",
+        title: 'Radisson Blu Chattogram',
+>>>>>>> 723121e715282b54d08ebcd1d8600f4aca1429f2
         img: hotelImg6,
         address: '431, D.T. Road, Kadamtoli, 4100 Chittagong',
         bed: 1,
