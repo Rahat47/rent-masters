@@ -1,7 +1,10 @@
 .sidebar{
-    /* background-image: linear-gradient(40deg, #ffc800, #ff8800); */
     /* position: fixed; */
-    z-index: 100;
+    z-index: -100;
+    cursor: pointer;
+}
+ul > li{
+    cursor: pointer;
 }
 .sidebar li{
     margin-bottom: 2em;
