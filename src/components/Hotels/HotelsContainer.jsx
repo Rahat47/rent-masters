@@ -1,11 +1,12 @@
 import React from "react";
 import { Container, Row } from "react-bootstrap";
-//Import the array in here
-import { hotelsInfo } from "../../assets/data/data";
+import { useSelector } from "react-redux";
 import Heading from "../Heading/Heading";
 import HotelCard from "./HotelCard";
 
 const HotelsContainer = () => {
+    const hotelsInfo = useSelector(state => state.rooms);
+
     return (
         <>
             <Heading title="Discover Hotels For Rent" subtitle="Our Hotels" />

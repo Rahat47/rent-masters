@@ -1,4 +1,4 @@
-const authReducer = (state = { authData: null }, action) => {
+const authReducer = (state = { authData: JSON.parse(localStorage.getItem("user")) }, action) => {
     switch (action.type) {
         case "LOGOUT":
             localStorage.clear()

@@ -4,12 +4,11 @@ import hotelImg3 from '../images/The-Peninsula.jpg';
 import hotelImg4 from '../images/Jatra-Rooms.jpg';
 import hotelImg5 from '../images/The-Avenue-Hotel.jpg';
 import hotelImg6 from '../images/Royal-Living-Hotel.jpg';
-import { v4 as uuidv4 } from 'uuid'
 
 //Export the hotels info array from here
 export const hotelsInfo = [
     {
-        id: uuidv4(),
+        id: "60b281e6fc13ae7a4800163e",
         title: 'Radisson Blu Chattogram',
         img: hotelImg1,
         address: 'SS Khaled Road Lalkhan Bazar, Chittagong',
@@ -23,6 +22,11 @@ export const hotelsInfo = [
     {
         id: uuidv4(),
         title: 'Hotel Agrabad',
+        description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt inventore fugit velit atque rem accusantium, est possimus doloribus voluptate in deserunt tempora distinctio similique, aliquam, esse modi quia asperiores animi enim nam temporibus nostrum sed quod fugiat? Possimus ipsa inventore fugiat aperiam aliquam, nisi laudantium accusantium odio distinctio ea hic eligendi velit dolore dolor maxime exercitationem. Dolores sed voluptatibus vitae ullam delectus exercitationem explicabo quis? Neque labore quo itaque mollitia, est asperiores eos totam officiis suscipit esse numquam repudiandae dicta minima explicabo eum eveniet ratione illo ducimus cumque? Neque nemo distinctio sint nam corrupti excepturi quos ea amet suscipit omnis? Molestias, nihil maxime assumenda itaque corporis eligendi reprehenderit vel beatae tempore veritatis quidem consectetur suscipit magnam earum voluptatem, cumque minus blanditiis enim. Commodi modi corporis quas maxime totam, ipsam voluptatum quo id ipsa deserunt maiores minima, magni ducimus, rerum et labore amet voluptatibus? Velit dolorum incidunt atque? Nam, sapiente cumque!"
+    },
+    {
+        id: "60b281e6fc13ae7a4800163f",
+        title: 'Radisson Blu Dhaka',
         img: hotelImg2,
         address: 'Plot # 02, Road # 01, O.R. Nizam Road, Chittagong',
         bed: 1,
@@ -36,6 +40,11 @@ export const hotelsInfo = [
     {
         id: uuidv4(),
         title: 'Well Park Residence',
+        description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt inventore fugit velit atque rem accusantium, est possimus doloribus voluptate in deserunt tempora distinctio similique, aliquam, esse modi quia asperiores animi enim nam temporibus nostrum sed quod fugiat? Possimus ipsa inventore fugiat aperiam aliquam, nisi laudantium accusantium odio distinctio ea hic eligendi velit dolore dolor maxime exercitationem. Dolores sed voluptatibus vitae ullam delectus exercitationem explicabo quis? Neque labore quo itaque mollitia, est asperiores eos totam officiis suscipit esse numquam repudiandae dicta minima explicabo eum eveniet ratione illo ducimus cumque? Neque nemo distinctio sint nam corrupti excepturi quos ea amet suscipit omnis? Molestias, nihil maxime assumenda itaque corporis eligendi reprehenderit vel beatae tempore veritatis quidem consectetur suscipit magnam earum voluptatem, cumque minus blanditiis enim. Commodi modi corporis quas maxime totam, ipsam voluptatum quo id ipsa deserunt maiores minima, magni ducimus, rerum et labore amet voluptatibus? Velit dolorum incidunt atque? Nam, sapiente cumque!"
+    },
+    {
+        id: "60b281e6fc13ae7a48001640",
+        title: 'Radisson Blu Chattogram',
         img: hotelImg3,
         address: 'Bulbul Centre, 486/B, O.R.Nizam Road, CDA Avenue',
         bed: 1,
@@ -48,6 +57,11 @@ export const hotelsInfo = [
     {
         id: uuidv4(),
         title: 'The Peninsula',
+        description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt inventore fugit velit atque rem accusantium, est possimus doloribus voluptate in deserunt tempora distinctio similique, aliquam, esse modi quia asperiores animi enim nam temporibus nostrum sed quod fugiat? Possimus ipsa inventore fugiat aperiam aliquam, nisi laudantium accusantium odio distinctio ea hic eligendi velit dolore dolor maxime exercitationem. Dolores sed voluptatibus vitae ullam delectus exercitationem explicabo quis? Neque labore quo itaque mollitia, est asperiores eos totam officiis suscipit esse numquam repudiandae dicta minima explicabo eum eveniet ratione illo ducimus cumque? Neque nemo distinctio sint nam corrupti excepturi quos ea amet suscipit omnis? Molestias, nihil maxime assumenda itaque corporis eligendi reprehenderit vel beatae tempore veritatis quidem consectetur suscipit magnam earum voluptatem, cumque minus blanditiis enim. Commodi modi corporis quas maxime totam, ipsam voluptatum quo id ipsa deserunt maiores minima, magni ducimus, rerum et labore amet voluptatibus? Velit dolorum incidunt atque? Nam, sapiente cumque!"
+    },
+    {
+        id: "60b281e6fc13ae7a48001641",
+        title: 'Radisson Blu Chattogram',
         img: hotelImg4,
         address: 'M M Ali Road. GEC More, T M T Ismail Tower 11/1',
         bed: 1,
@@ -60,6 +74,11 @@ export const hotelsInfo = [
     {
         id: uuidv4(),
         title: 'Jatra Rooms',
+        description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt inventore fugit velit atque rem accusantium, est possimus doloribus voluptate in deserunt tempora distinctio similique, aliquam, esse modi quia asperiores animi enim nam temporibus nostrum sed quod fugiat? Possimus ipsa inventore fugiat aperiam aliquam, nisi laudantium accusantium odio distinctio ea hic eligendi velit dolore dolor maxime exercitationem. Dolores sed voluptatibus vitae ullam delectus exercitationem explicabo quis? Neque labore quo itaque mollitia, est asperiores eos totam officiis suscipit esse numquam repudiandae dicta minima explicabo eum eveniet ratione illo ducimus cumque? Neque nemo distinctio sint nam corrupti excepturi quos ea amet suscipit omnis? Molestias, nihil maxime assumenda itaque corporis eligendi reprehenderit vel beatae tempore veritatis quidem consectetur suscipit magnam earum voluptatem, cumque minus blanditiis enim. Commodi modi corporis quas maxime totam, ipsam voluptatum quo id ipsa deserunt maiores minima, magni ducimus, rerum et labore amet voluptatibus? Velit dolorum incidunt atque? Nam, sapiente cumque!"
+    },
+    {
+        id: "60b281e6fc13ae7a48001642",
+        title: 'Radisson Blu Chattogram',
         img: hotelImg5,
         address: 'Ispahani Moor, Lalkhan Bazar, 4150 Chittagong',
         bed: 1,
@@ -72,6 +91,11 @@ export const hotelsInfo = [
     {
         id: uuidv4(),
         title: 'The Avenue Hotel',
+        description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt inventore fugit velit atque rem accusantium, est possimus doloribus voluptate in deserunt tempora distinctio similique, aliquam, esse modi quia asperiores animi enim nam temporibus nostrum sed quod fugiat? Possimus ipsa inventore fugiat aperiam aliquam, nisi laudantium accusantium odio distinctio ea hic eligendi velit dolore dolor maxime exercitationem. Dolores sed voluptatibus vitae ullam delectus exercitationem explicabo quis? Neque labore quo itaque mollitia, est asperiores eos totam officiis suscipit esse numquam repudiandae dicta minima explicabo eum eveniet ratione illo ducimus cumque? Neque nemo distinctio sint nam corrupti excepturi quos ea amet suscipit omnis? Molestias, nihil maxime assumenda itaque corporis eligendi reprehenderit vel beatae tempore veritatis quidem consectetur suscipit magnam earum voluptatem, cumque minus blanditiis enim. Commodi modi corporis quas maxime totam, ipsam voluptatum quo id ipsa deserunt maiores minima, magni ducimus, rerum et labore amet voluptatibus? Velit dolorum incidunt atque? Nam, sapiente cumque!"
+    },
+    {
+        id: "60b281e6fc13ae7a48001643",
+        title: 'Radisson Blu Chattogram',
         img: hotelImg6,
         address: '431, D.T. Road, Kadamtoli, 4100 Chittagong',
         bed: 1,
@@ -80,6 +104,7 @@ export const hotelsInfo = [
         bathroom: 1,
         price: 1100,
         description: "THE AVENUE HOTEL & SUITES is located in Chittagong. Among the facilities of this property are a restaurant, a 24-hour front desk and room service, along with free WiFi. Private parking can be arranged at an extra charge.Guests at the hotel can enjoy a buffet breakfast.The nearest airport is Shah Amanat International Airport, 11 km from THE AVENUE HOTEL & SUITES.We speak your language!Laguna Multi-Cuisine Restaurant offers dishes from Bangladesh, India, Thailand and China. Other dining options include Continental and Korean food at Flamingo Cafe, pastries at Orchid Patisserie and cocktails at Isles Bar.At the spa, guests can relax with a massage, or at the sauna and hot tub. The hotel also provides a business centre and a tour desk."
+        description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt inventore fugit velit atque rem accusantium, est possimus doloribus voluptate in deserunt tempora distinctio similique, aliquam, esse modi quia asperiores animi enim nam temporibus nostrum sed quod fugiat? Possimus ipsa inventore fugiat aperiam aliquam, nisi laudantium accusantium odio distinctio ea hic eligendi velit dolore dolor maxime exercitationem. Dolores sed voluptatibus vitae ullam delectus exercitationem explicabo quis? Neque labore quo itaque mollitia, est asperiores eos totam officiis suscipit esse numquam repudiandae dicta minima explicabo eum eveniet ratione illo ducimus cumque? Neque nemo distinctio sint nam corrupti excepturi quos ea amet suscipit omnis? Molestias, nihil maxime assumenda itaque corporis eligendi reprehenderit vel beatae tempore veritatis quidem consectetur suscipit magnam earum voluptatem, cumque minus blanditiis enim. Commodi modi corporis quas maxime totam, ipsam voluptatum quo id ipsa deserunt maiores minima, magni ducimus, rerum et labore amet voluptatibus? Velit dolorum incidunt atque? Nam, sapiente cumque!"
     },
 
 ]

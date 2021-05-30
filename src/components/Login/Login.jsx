@@ -6,15 +6,13 @@ import { Button } from "react-bootstrap";
 import { useDispatch } from "react-redux";
 import { useHistory, useLocation } from "react-router-dom";
 import { fbaseGoogleSignIn } from "../../firebase/firebaseAuth";
+import { login } from "../../redux/actions/authActions";
 import styles from "./Login.module.css";
 
 library.add(fab);
 
 function Login() {
     const [newUser, setNewUser] = useState(false);
-    const [user, setUser] = useState({
-        isLoggedIn: false,
-    });
     const history = useHistory();
     const location = useLocation();
     let { from } = location.state || { from: { pathname: "/" } };
@@ -28,7 +26,7 @@ function Login() {
             uid: user.uid,
             isLoggedIn: true,
         };
-        setUser(newUser);
+        dispatch(login(newUser));
         history.replace(from);
     };
 
@@ -132,12 +130,6 @@ function Login() {
                             Continue With GitHub
                         </button>
                     </div>
-
-                    {user.success && (
-                        <p style={{ color: "green" }}>
-                            Account {newUser ? "Created" : "Login"} Successfully
-                        </p>
-                    )}
                 </form>
             </div>
         </div>
