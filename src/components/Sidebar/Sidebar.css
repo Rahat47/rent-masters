@@ -1,0 +1,18 @@
+.sidebar{
+    /* position: fixed; */
+    z-index: -100;
+    cursor: pointer;
+}
+ul > li{
+    cursor: pointer;
+}
+.sidebar li{
+    margin-bottom: 2em;
+}
+.sidebar li:hover span{
+    display: inline-block;
+    transform: translate(1px);
+}
+.sidebar svg{
+    margin-right: 5px;
+}
