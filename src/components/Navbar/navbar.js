@@ -35,6 +35,15 @@ const NavBar = () => {
                             Rooms
                         </Nav.Link>
                         <Nav.Link
+                            as={Link}
+                            to="dashboard"
+                            spy
+                            offset={-50}
+                            style={{ cursor: "pointer" }}
+                        >
+                            Dashboard
+                        </Nav.Link>
+                        <Nav.Link
                             as={LinkScroll}
                             to="footer"
                             spy
