@@ -11,3 +11,10 @@ export const add = (payload) => {
         payload
     }
 }
+
+export const remove = (payload) => {
+    return {
+        type: "DELETE",
+        payload
+    }
+}
