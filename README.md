@@ -26,7 +26,7 @@ From budget hostels to luxury suites, trivago makes it easy to book online. You 
 
 https://rent-masters-rdx.web.app/?fbclid=IwAR1OnRTK47jcmASLnh5FmGo7mzuA7EmwAttzfUH6vDmI5x7P1xeCJVkjCCA
  
-# Contributor
+# Contributors
 
 ## TEAM79
 #### Rayhan Hossain Rahat
